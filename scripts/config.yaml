@@ -1,0 +1,3 @@
+dpi:
+  form_url: "https://core.ci.za.dpi-poc.com/formio/form/"
+  app_url: "https://app.ci.za.dpi-poc.com/api/credentials/create"
