@@ -1,0 +1,106 @@
+{
+  "schema": {
+    "type": "https://w3c-ccg.github.io/vc-json-schemas/",
+    "version": "1.0.0",
+    "id": "",
+    "name": "IdCard09",
+    "author": "",
+    "authored": "",
+    "schema": {
+      "$id": "IdCard09",
+      "$schema": "https://json-schema.org/draft/2019-09/schema",
+      "description": "An identification card (ID card) is an official document issued by an organization.",
+      "type": "object",
+      "properties": {
+        "portrait": {
+          "type": "string",
+          "description": "Enter the portrait"
+        },
+        "issuing_authority": {
+          "type": "string",
+          "description": "Enter the issuing_authority"
+        },
+        "issue_date": {
+          "type": "string",
+          "description": "Enter the issue_date"
+        },
+        "expiry_date": {
+          "type": "string",
+          "description": "Enter the expiry_date"
+        },
+        "given_name": {
+          "type": "string",
+          "description": "Enter the given_name"
+        },
+        "family_name": {
+          "type": "string",
+          "description": "Enter the family_name"
+        },
+        "birth_date": {
+          "type": "string",
+          "description": "Enter the birth_date"
+        },
+        "sex": {
+          "type": "string",
+          "description": "Enter the sex"
+        },
+        "resident_address": {
+          "type": "string",
+          "description": "Enter the resident_address"
+        },
+        "resident_city": {
+          "type": "string",
+          "description": "Enter the resident_city"
+        },
+        "resident_state": {
+          "type": "string",
+          "description": "Enter the resident_state"
+        },
+        "resident_country": {
+          "type": "string",
+          "description": "Enter the resident_country"
+        },
+        "document_number": {
+          "type": "string",
+          "description": "Enter the document_number"
+        },
+        "issuing_country": {
+          "type": "string",
+          "description": "Enter the issuing_country"
+        },
+        "driving_privileges": {
+          "type": "string",
+          "description": "Enter the driving_privileges"
+        },
+        "email_id": {
+          "type": "string",
+          "description": "Enter the email_id"
+        }
+      },
+      "required": [
+        "resident_state",
+        "driving_privileges",
+        "sex",
+        "resident_country",
+        "document_number",
+        "portrait",
+        "given_name",
+        "family_name",
+        "resident_city",
+        "issuing_country",
+        "email_id",
+        "resident_address",
+        "expiry_date",
+        "birth_date",
+        "issuing_authority",
+        "issue_date"
+      ],
+      "additionalProperties": true
+    },
+    "tags": [
+      "tag1",
+      "tag2"
+    ],
+    "status": "DRAFT"
+  }
+}

@@ -1220,7 +1220,7 @@ def process_svg_files_in_folder(folder_path, dry_run=True, config_file="../scrip
                 'Accept': '*/*',
                 'User-Agent': 'Thunder Client (https://www.thunderclient.com)',
                 'Content-Type': 'application/json',
-                'x-jwt-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY4ZTM4YWMyMzUyZTQwMTQxMDljMDM5NiJ9LCJmb3JtIjp7Il9pZCI6IjY4ZTM4YWMyMzUyZTQwMTQxMDljMDM2MSJ9LCJpYXQiOjE3NTk5ODg1NzAsImV4cCI6MTc2MDAwMjk3MH0.lW0W6-RBBKhnLIPUyqtFnZHCYg1hhT1rFEqhNxiZjPY'
+                'x-jwt-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY4ZTM4YWMyMzUyZTQwMTQxMDljMDM5NiJ9LCJmb3JtIjp7Il9pZCI6IjY4ZTM4YWMyMzUyZTQwMTQxMDljMDM2MSJ9LCJpYXQiOjE3NjE3MjE1NTMsImV4cCI6MTc2MTczNTk1M30.Inz-yO-9n3mXWPcv2Yy25Z05WaQdu1EiRtR7KoExZBA'
                 }
         temp = None 
         subj = None
@@ -1256,7 +1256,7 @@ def process_svg_files_in_folder(folder_path, dry_run=True, config_file="../scrip
                 print(response.text)
 
 if __name__ == "__main__":
-    folder_path = '../IdCard08' 
+    folder_path = '../IdCard13' 
     config_file = "../scripts/config.yaml"
     dry_run = False if sys.argv[1].lower() == "false" else True
 

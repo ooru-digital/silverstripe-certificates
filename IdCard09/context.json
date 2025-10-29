@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "schema": "https://schema.org/",
+    "IdCard09": {
+      "@id": "iri:3425",
+      "@context": {
+        "@version": 1.1,
+        "id": "@id",
+        "portrait": "schema:Text",
+        "issuing_authority": "schema:Text",
+        "issue_date": "schema:Text",
+        "expiry_date": "schema:Text",
+        "given_name": "schema:Text",
+        "family_name": "schema:Text",
+        "birth_date": "schema:Text",
+        "sex": "schema:Text",
+        "resident_address": "schema:Text",
+        "resident_city": "schema:Text",
+        "resident_state": "schema:Text",
+        "resident_country": "schema:Text",
+        "document_number": "schema:Text",
+        "issuing_country": "schema:Text",
+        "driving_privileges": "schema:Text",
+        "email_id": "schema:Text"
+      }
+    }
+  }
+}

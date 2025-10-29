@@ -1,0 +1,56 @@
+{
+  "schema": {
+    "type": "https://w3c-ccg.github.io/vc-json-schemas/",
+    "version": "1.0.0",
+    "id": "",
+    "name": "IdCard12",
+    "author": "",
+    "authored": "",
+    "schema": {
+      "$id": "IdCard12",
+      "$schema": "https://json-schema.org/draft/2019-09/schema",
+      "description": "An identification card (ID card) is an official document issued by an organization.",
+      "type": "object",
+      "properties": {
+        "issuing_authority": {
+          "type": "string",
+          "description": "Enter the issuing_authority"
+        },
+        "issue_date": {
+          "type": "string",
+          "description": "Enter the issue_date"
+        },
+        "given_name": {
+          "type": "string",
+          "description": "Enter the given_name"
+        },
+        "family_name": {
+          "type": "string",
+          "description": "Enter the family_name"
+        },
+        "email_id": {
+          "type": "string",
+          "description": "Enter the email_id"
+        },
+        "expiry_date": {
+          "type": "string",
+          "description": "Enter the expiry_date"
+        }
+      },
+      "required": [
+        "email_id",
+        "issuing_authority",
+        "family_name",
+        "given_name",
+        "expiry_date",
+        "issue_date"
+      ],
+      "additionalProperties": true
+    },
+    "tags": [
+      "tag1",
+      "tag2"
+    ],
+    "status": "DRAFT"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "schema": "https://schema.org/",
+    "IdCard11": {
+      "@id": "iri:3425",
+      "@context": {
+        "@version": 1.1,
+        "id": "@id",
+        "issuing_authority": "schema:Text",
+        "issue_date": "schema:Text",
+        "given_name": "schema:Text",
+        "family_name": "schema:Text",
+        "email_id": "schema:Text",
+        "birth_date": "schema:Text",
+        "sex": "schema:Text"
+      }
+    }
+  }
+}
